@@ -19,7 +19,9 @@ El modelo de datos está compuesto por cinco tablas principales que se relaciona
 ---
 
 ### 1. Visión General de la Fuerza Laboral
-![Vista Global](vistaglobal.png)  
+
+![Vista Global](vistaglobal.png)
+
 - **Headcount activo**: 1 467 empleados.  
 - **Contrataciones totales** (jul 2018–jun 2023): 3 000.  
 - **Bajas**: 1 533 → **Tasa de rotación histórica**: 51,1%.  
@@ -32,7 +34,9 @@ El modelo de datos está compuesto por cinco tablas principales que se relaciona
 ---
 
 #### 2. Evaluación de Desempeño
-![Calificación](calificacion.png)  
+
+![Calificación](calificacion.png)
+
 - **Calificación promedio (headcount)**: 2,96/5  
 - **Por departamento**  
   - Admin Offices: 3,13 · Production: 2,97 · Sales: 2,95  
@@ -48,7 +52,9 @@ El modelo de datos está compuesto por cinco tablas principales que se relaciona
 ---
 
 ### 3. Capacitación
-![Capacitación](capacitacion.png)  
+
+![Capacitación](capacitacion.png)
+
 - **Participación**: 1 467 trabajadores.  
 - **Finalización**: 379 (25,8%) · **No finalizaron**: 1 088 (74,2%).  
 - **Inversión total**: \$ 1 675 886 · **Costo fallido**: \$ 1 260 110 (75,2%).  
@@ -57,7 +63,9 @@ El modelo de datos está compuesto por cinco tablas principales que se relaciona
 ---
 
 ### 4. Compromiso y Clima Laboral
-![Encuesta](encuesta.png)  
+
+![Encuesta](encuesta.png)
+
 - **Compromiso promedio**: 2,9/5  
 - **Satisfacción promedio**: 3,0/5  
 - **Ambiente laboral**: 3,0/5  
@@ -69,7 +77,9 @@ El modelo de datos está compuesto por cinco tablas principales que se relaciona
 ---
 
 ### 5. Retención y Rotación
+
 ![Rotación](rotacion.png)
+
 - **Tasa de rotación**: 51,1%  
 - **Por antigüedad**:  
   - ≤ 2 años: 95,6%  
