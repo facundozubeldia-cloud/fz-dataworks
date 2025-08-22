@@ -8,7 +8,7 @@ Soy estudiante de la Tecnicatura en Ciencia de Datos e IA en ISTEA, con formaci�
 ## Herramientas que utilizo
 - Python (Pandas, NumPy, Matplotlib, Seaborn, etc)
 - Power BI (DAX, JSON themes, Power Query)
-- SQL (SQLite, My SQL, SQL Server)
+- SQL (SQLite, My SQL, SQL Server, Duckdb)
 - Excel
 - Jupyter Notebooks
 
@@ -25,6 +25,37 @@ Soy estudiante de la Tecnicatura en Ciencia de Datos e IA en ISTEA, con formaci�
   * Clasificación de vehículos en gamas desde económico hasta superlujo.
   * Análisis de procedencia geográfica y preferencias por segmento.
   * Conclusiones estratégicas para ingresar al mercado automotor.
+
+---
+
+## **Análisis de Ventas - ClassicModels**
+
+# Proyecto BI: Análisis de Ventas – ClassicModels Ltda.
+
+Este proyecto desarrolla un flujo completo de Business Intelligence a partir del dataset ClassicModels, combinando ingesta automatizada, transformación relacional y visualización en Power BI.  
+
+## Pipeline de datos
+- **Ingesta**: Descarga automatizada desde Kaggle con su API oficial. Uso de DuckDB para exploración rápida sobre archivos locales.  
+- **Transformación**: El dataset ya incluía una base en SQLite, lo que permitió consolidar órdenes, productos, clientes y empleados en un único dataset limpio exportado a CSV para Power BI.  
+- **Motivación**: Se utilizaron ambos motores porque DuckDB facilita la exploración inicial, mientras que SQLite permitió aprovechar el modelo relacional existente.  
+
+## Dashboard en Power BI
+Se construyó un tablero interactivo que responde a las principales preguntas de negocio:  
+- **Ventas totales y transacciones válidas** mediante tarjetas resumen  
+- **Ventas por categoría** con gráfico de columnas  
+- **Ventas por empleado** con gráfico de barras horizontales  
+- **Evolución temporal de ventas** con gráfico de líneas y segmentador de fechas  
+- **Insights clave**: picos estacionales en enero, concentración 80/20 en productos, crecimiento interanual del 18%  
+
+## Resultados principales
+- 303 transacciones válidas  
+- Ventas totales: 8.865.094,6  
+- Classic Cars lidera con 3,6M en ventas  
+- Tendencia de ventas con picos en enero y caídas en mar–may  
+- Alta concentración de ingresos en un subconjunto reducido de productos  
+
+## Tecnologías utilizadas
+Python (pandas, sqlite3, DuckDB, Kaggle API) · SQL · Power BI (Power Query, DAX, visualizaciones) 
 
 ---
 
@@ -80,19 +111,6 @@ Este análisis en Python analiza los resultados de una carrera de Fórmula 1 de 
   * Análisis integral de headcount, adquisición de talento, capacitación, compromiso y rotación.
   * Identificación de causas clave de rotación y baja satisfacción.
   * Recomendaciones estratégicas para mejorar productividad y retención.
-
----
-
-## **Análisis de Ventas - Retail**
-
-**Objetivo:** Evaluar desempeño de ventas mediante KPIs clave, segmentación regional y análisis temporal.
-
-* **Tecnologías:** Excel, CSV, Power BI
-* **Logros:**
-
-  * Crecimiento interanual del 18%.
-  * Aplicación de la ley de Pareto para focalizar en productos clave.
-  * Identificación de la región norte como más rentable.
 
 ---  
 
