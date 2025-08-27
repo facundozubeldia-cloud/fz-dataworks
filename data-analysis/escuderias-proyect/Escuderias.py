@@ -1,6 +1,9 @@
 import time
 import sys
 import statistics
+import os
+import json
+import pandas as pd
 ###
 CANTIDAD_DE_VUELTAS = 52
 pilotos = [ "Alexander Albon",
@@ -304,9 +307,6 @@ for escuderia, puntos in top_escuderias:
 
 print("*" * 100)
 ########################################################################
-import os
-import json
-import pandas as pd
 try:
     from sqlalchemy import create_engine
 except ImportError:
