@@ -3,7 +3,7 @@
 Bienvenido a mi repositorio de ciencia de datos. Recopila proyectos aplicados en análisis de datos, visualización estratégica y machine learning. Cada uno está orientado a resolver problemas reales y facilitar la toma de decisiones empresariales. En cada carpeta encontrarás un caso práctico con su propio README explicativo.
 
 ## Sobre mí
-Soy estudiante de la Tecnicatura en Ciencia de Datos e IA en ISTEA, con formación adicional en Coderhouse y Educación IT. Me especializo principalmente en Python, SQL, Power BI y análisis exploratorio.
+Soy Técnico en Ciencia de Datos e IA en ISTEA, con formación adicional en Coderhouse y Educación IT. Me especializo principalmente en Python, SQL, Power BI y análisis exploratorio.
 
 ## Herramientas que utilizo
 - Python (Pandas, NumPy, Matplotlib, Seaborn, etc)
